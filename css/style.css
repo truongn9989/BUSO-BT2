@@ -1,0 +1,234 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+.header img{
+	height: 85px;
+	width: 85px;
+	padding-top: 10px;
+}
+.header__item{
+	width: 33%;
+	display: flex;
+	padding-top:10px;
+	align-items: center;
+}
+.header__item i{
+	width: 25%;
+	font-size: 2.0rem;
+	text-align: center;
+
+
+}
+.header__item--intro{
+	width: 75%;
+}
+.header__item--intro p:nth-child(1){
+	font-weight: bold;
+}
+.header__item--intro p{
+	margin-bottom: 0.5rem !important;
+}
+
+.navbar{
+	background-color: #29652f;
+}
+.navbar .collapse{
+	width: 20%;
+}
+.navbar .collapse ul li{
+	width: 20%;
+
+}
+.navbar .collapse ul li a{
+	color: white;
+	font-size: 1.5rem;
+	font-weight: bold;;
+}
+.product{
+	margin:5rem 0;
+	color: #29652f;
+}
+.product__item{
+	text-align: center;
+}
+.product__item--img{
+	height: 350px;
+	width: 500px;
+}
+.product__item img {
+ 	border: 1px solid #29652f !important;
+ 	padding: 10px 20px;
+}
+.product__item--title{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 1.75rem;
+}
+.slogan{
+	position: relative;
+	padding-top: 2rem;
+	background-color: #f8f9fb;
+}
+.slogan__title{
+	text-align: center;
+}
+.slogan__title h2{
+	color: #29652f;
+	font-weight: bold;
+}
+.slogan__content--title h3{
+	text-transform: uppercase;
+}
+.slogan .slogan__content img{
+	width: 80%;
+	height: 250px;
+	margin-left: 25%;
+}
+.advantages__round img{
+	max-width: 100%;
+}
+
+.activeProduct__title {
+  font-weight: bold;
+  text-align: center;
+  color: #29652f;
+  text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 2rem; }
+.activeProduct__content{
+	padding-top: 30px;
+	padding-bottom: 80px;
+  }
+.activeProduct__content .img-fluid{
+	border: 1px solid;
+}
+
+.request-customer{
+	background: #c0d8ca;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.request-customer__title{
+	text-align: center;
+	padding-top: 30px;
+}
+.request-customer__title h2{
+	color: #29652f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.request-customer__title p{
+	letter-spacing: 1px;
+	font-size: 1rem;
+	color: #29652f;
+}
+.customer {
+  	margin: 4rem 0; }
+.customer__content {
+    border: 1px solid #29652f;
+    padding: 5rem 5rem 0 5rem !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; 
+}
+.customer__content h1 {
+    color: #29652f;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*font-size: 25px;*/
+}
+.footer {
+  color: white;
+  /*font-weight: bold;*/
+  background-color: #4b4646; 
+}
+.footer__content {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 1rem;
+}
+.footer__content h3 {
+      height: 30px;
+      line-height:0px; 
+      text-transform: uppercase;
+      border-bottom: 2px solid;
+}
+.footer__content ul {
+      width: 50%;
+      list-style: none; 
+}
+.footer__content ul li a {
+    color: white; 
+}
+
+@media screen and (max-width: 767px){
+	.header img{
+		height: 100%;
+		width: auto;
+		padding: 0 0 0 0;
+	}
+	.navbar .collapse ul li {
+	    width: auto;
+	}
+	.header .info figure{
+		text-align: center;
+		
+	}
+	.header .info .ml-auto{
+		display: none;
+	}
+	.product__item--img {
+	    height: 350px;
+	    width: 100%;
+	}
+	.slogan__content--title h3 {
+	    text-transform: uppercase;
+	    text-align: center;
+	    padding-top: 30px;
+	}
+	.slogan .slogan__content img {
+	    height: 250px;
+	    width: inherit;
+	    margin-left: 0px;
+	}
+	.customer__content {
+	    border: 1px solid #29652f;
+	    padding: 1rem 1rem 0 1rem !important;
+	    display: -webkit-box;
+	    display: -ms-flexbox;
+	    display: flex;
+	    -webkit-box-pack: center;
+	        -ms-flex-pack: center;
+	            justify-content: center;
+	    -webkit-box-align: center;
+	        -ms-flex-align: center;
+	            align-items: center; 
+	}
+	.customer__content h1 {
+	    color: #29652f;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    font-size: 25px;
+	}
+	.footer__content h3 {
+
+		height: 30px;
+		line-height:0px; 
+		text-transform: uppercase;
+		border-bottom: 2px solid;
+	}
+	.footer .col-lg-3.ml-auto{
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+
+}
